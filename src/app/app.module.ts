@@ -1,3 +1,4 @@
+import { MatCardModule } from '@angular/material/card';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,6 +17,7 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     BrowserAnimationsModule ,
     CoreModule ,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
