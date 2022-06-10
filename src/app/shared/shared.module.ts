@@ -18,13 +18,16 @@ import { ShortenPipe } from './pipes/shorten.pipe';
     CommonModule ,
     MatCardModule ,
     MaterialModule ,
-    ReactiveFormsModule
+    ReactiveFormsModule ,
+    
 
   ] ,
   exports:[
     CommentsComponent ,
     MaterialModule ,
-    ReactiveFormsModule
+    ReactiveFormsModule ,
+    ShortenPipe
+
   ]
 })
 export class SharedModule { }
