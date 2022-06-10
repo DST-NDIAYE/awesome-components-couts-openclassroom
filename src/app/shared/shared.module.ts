@@ -6,13 +6,15 @@ import { CommonModule } from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import { CommentsComponent } from './components/comments/comments.component';
 import { ShortenPipe } from './pipes/shorten.pipe';
+import { SurlignerDirective } from './directives/surligner.directive';
 
 
 
 @NgModule({
   declarations: [
     CommentsComponent,
-    ShortenPipe
+    ShortenPipe,
+    SurlignerDirective
   ],
   imports: [
     CommonModule ,
