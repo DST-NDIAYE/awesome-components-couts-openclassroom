@@ -21,14 +21,15 @@ import { SurlignerDirective } from './directives/surligner.directive';
     MatCardModule ,
     MaterialModule ,
     ReactiveFormsModule ,
-    
+
 
   ] ,
   exports:[
     CommentsComponent ,
     MaterialModule ,
     ReactiveFormsModule ,
-    ShortenPipe
+    ShortenPipe ,
+    SurlignerDirective
 
   ]
 })
